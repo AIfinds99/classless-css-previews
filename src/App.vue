@@ -8,7 +8,7 @@ import Controls from "./components/Controls.vue";
 import FrameworkGrid from "./components/FrameworkGrid.vue";
 import FrameworkPreview from "./components/FrameworkPreview.vue";
 
-const version = "1.0.5";
+const version = "1.0.6";
 const repos = ref<Repos | null>(null);
 const selectedFramework = ref<string | null>(null);
 const searchTerm = ref("");

@@ -457,9 +457,9 @@
   {
     "name": "water.css",
     "repo": "https://github.com/kognise/water.css",
-    "url": "https://cdn.jsdelivr.net/gh/kognise/water.css@master/dist/light.min.css",
+    "url": "https://cdn.jsdelivr.net/npm/water.css@latest/out/water.css",
     "size": 2736,
-    "dark_light_theme": false
+    "dark_light_theme": true
   },
   {
     "name": "wing",
