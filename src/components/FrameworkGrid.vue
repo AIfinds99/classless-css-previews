@@ -25,9 +25,6 @@ const allFrameworks = computed(() => {
   if (props.orderBy === "size-asc") {
     return [...props.repos].sort((a, b) => a.size - b.size);
   }
-  else {
-    return props.repos;
-  }
 
   return props.repos;
 });
@@ -92,7 +89,8 @@ defineExpose({
           class="add-btn"
           @click="addFramework(name)"
         >
-          + {{ name }}
+          {{ name }}
+          <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><circle cx="12" cy="12" r="10" /><line x1="12" y1="8" x2="12" y2="16" /><line x1="8" y1="12" x2="16" y2="12" /></svg>
         </button>
       </div>
     </div>
@@ -120,6 +118,13 @@ defineExpose({
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   align-items: center;
   font-family: var(--font-system);
+}
+
+.add-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
 }
 
 .removed-frameworks {
