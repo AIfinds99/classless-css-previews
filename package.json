@@ -1,0 +1,27 @@
+{
+  "name": "classless-css-preview",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "vue": "^3.5.18"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^5.3.0",
+    "@types/node": "^24.3.1",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/tsconfig": "^0.8.1",
+    "eslint": "^9.35.0",
+    "eslint-plugin-format": "^1.0.1",
+    "typescript": "~5.9.2",
+    "vite": "^7.1.2",
+    "vue-tsc": "^3.0.5"
+  }
+}
