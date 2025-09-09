@@ -4,7 +4,7 @@ Preview 69 different classless css frameworks side by side.
 
 ![preview](./public/preview.png)
 
-View the app [here](https://classless-css-preview.vercel.app/)
+View the app [here](https://classless-css-previews.vercel.app/)
 
 Each framework is loaded via CDN from jsdelivr (initial page load will take a second 😉).
 
