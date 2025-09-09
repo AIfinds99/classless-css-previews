@@ -25,22 +25,10 @@ onMounted(() => {
   if (props.repos) {
     const info = props.repos.find(f => f.name === props.framework);
     if (info) {
-      let cssLink: string | null = null;
-      if (info.url.includes("github.com")) {
-        const path = new URL(info.url).pathname;
-        const [, user, repo, , ...file] = path.split("/");
-        cssLink = `https://cdn.jsdelivr.net/gh/${user}/${repo}@${file.join("/")}`;
-      }
-      else if (info.url.includes("unpkg.com") || info.url.includes("jsdelivr.net")) {
-        cssLink = info.url;
-      }
-
-      if (cssLink) {
-        const link = document.createElement("link");
-        link.rel = "stylesheet";
-        link.href = cssLink;
-        document.head.append(link);
-      }
+      const link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.href = info.url;
+      document.head.append(link);
     }
   }
 });
